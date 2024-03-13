@@ -1,13 +1,29 @@
 # Quantumult X Script and Rules
 
+[![Page Views Count](https://badges.toozhao.com/badges/01HRTVP22Q4WQANJHX9Q468REZ/green.svg)](https://badges.toozhao.com/stats/01HRTVP22Q4WQANJHX9Q468REZ "Get your own page views count badge on badges.toozhao.com")
+
 ## 前言
 > Quantumult X 学习过程中开发的一些自用脚本
+
 
 
 ## Rules
  本项目的所有规则均为自用，并不一定适合所有人，请选择性参考。
 ## Script
  本项目中的所有脚本，一部分是学习过程中自行开发，另一部分收集于互联网(均已经标明作者和出处)
+
+| 脚本                                                         | 介绍                                 | 维护状态 |
+| ------------------------------------------------------------ | ------------------------------------ | -------- |
+| [皮皮搞笑](https://github.com/tidik/quanx/blob/master/script/ppgx.js) | 签到、开卡                | 正常     |
+| [家家悦](https://github.com/tidik/quanx/blob/master/script/jjy.js) | 签到   | 正常     |        | 正常      |
+
+#### Quantumult X Gallery
+
+脚本已配置 Quantumult X Gallery。
+
+地址： https://raw.githubusercontent.com/tidik/quanx/master/task/gallery.json
+
+
 
  # 感谢
  > 排名不分先后
