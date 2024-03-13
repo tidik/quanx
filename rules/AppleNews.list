@@ -1,0 +1,6 @@
+# --- AppleNews  --- 
+host,news-assets.apple.com,OutSide
+host,news-client.apple.com,OutSide
+host,news-edge.apple.com,OutSide
+host,news-events.apple.com,OutSide
+host-suffix,apple.news,OutSide

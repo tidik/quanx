@@ -1,0 +1,18 @@
+#  ---  Apple Music --- 
+host,hls.itunes.apple.com,Apple Music
+host,aod.itunes.apple.com,Apple Music
+host,mvod.itunes.apple.com,Apple Music
+host-suffix,itunes.apple.com,Apple Music
+host-suffix,music.apple.com,Apple Music
+host-suffix,play.itunes.apple.com,Apple Music
+host-suffix,phobos.apple.com,Apple Music
+host-suffix,radio.itunes.apple.com,Apple Music
+host-suffix,radio-activity.itunes.apple.com,Apple Music
+host-suffix,radio-services.itunes.apple.com,Apple Music
+host-suffix,streamingaudio.itunes.apple.com,Apple Music
+user-agent,Music*,Apple Music
+host-suffix,applemusic.com,Apple Music
+host-suffix,blobstore.apple.com,Apple Music
+host,aod-ssl.itunes.apple.com,Apple Music
+host,audio.itunes.apple.com,Apple Music
+host,audio-ssl.itunes.apple.com,Apple Music

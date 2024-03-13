@@ -1,0 +1,24 @@
+#  ---  iCloud --- 
+host-keyword,icloud,Apple
+host-keyword,icoudo,Apple
+host-keyword,icoudos,Apple
+host-suffix,applemx-icloud.com,Apple
+host-suffix,icloud-content.com,Apple
+host-suffix,icloud-content.com.cn,Apple
+host-suffix,icloud-isupport.com,Apple
+host-suffix,icloudads.net,Apple
+host-suffix,icloudbox.net,Apple
+host-suffix,icloudbrowser.net,Apple
+host-suffix,icloude.com,Apple
+host-suffix,icloudmusic.net,Apple
+host-suffix,icloudmail.net,Apple
+host-suffix,icloudnet.net,Apple
+host-suffix,icloudpay.net,Apple
+host-suffix,icloudsecure.net,Apple
+host-suffix,myicloud.net,Apple
+host-suffix,mail.me.com.akadns.net,Apple
+host-suffix,www-cdn.icloud.com.akadns.net,Apple
+host-suffix,icloud-sandbox.com,Apple
+host-suffix,icloud.com.cn,Apple
+host-suffix,icloud.net.cn,Apple
+host-wildcard,*-content.icloud.com.cn,Apple
