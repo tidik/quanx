@@ -11,7 +11,7 @@ hostname = h5.ippzone.com
 [rewrite_local]
 ^https:\/\/h5\.ippzone\.com\/spacey\/api\/proxy\?url=(http:\/\/api\.in\.ippzone\.com\/treasure_hunt)/ url script-request-body https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js
 [task_local]
-52 7 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js, tag=皮皮搞笑, img-url=https://raw.githubusercontent.com/tidik/quanx/master/icon/ppgx.jpg,enabled=true
+52 7 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js, tag=皮皮搞笑, img-url=https://raw.githubusercontent.com/tidik/quanx/master/icon/ppgx.png,enabled=true
  */
 
 const $ = new API("皮皮搞笑");

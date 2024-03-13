@@ -34,7 +34,7 @@
         
         "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png ,tag=B站每日等级任务",
         
-        "52 7 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js,  img-url=https://raw.githubusercontent.com/tidik/quanx/master/icon/ppgx.jpg,   enabled=true,   tag=皮皮搞笑,",
+        "52 7 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js,  img-url=https://raw.githubusercontent.com/tidik/quanx/master/icon/ppgx.png,   enabled=true,   tag=皮皮搞笑,",
         
         "30 8 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/jjy.js, tag=家家悦签到,enabled=true"
     ]
