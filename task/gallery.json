@@ -1,0 +1,38 @@
+{
+    "name": "Quantumult X Tasks",
+    "description": "https://github.com/tidik/quanx",
+    "task": [
+        "29 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/netease_musician/task.js, enabled=true , img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Netease.png ,tag=网易云音乐人",
+        
+        "14 8 * * * https://gist.githubusercontent.com/Sliverkiss/3c0239a09cbe381c572a826a5caf5621/raw/midea.js,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Blinkload.png,enabled=true ,tag=美的会员签到",
+        
+        "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, enabled=true ,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Aiqiyi.png, tag=爱奇艺签到",
+        
+        "15 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Blinkload.png,enabled=true ,tag=托迈酷客",
+        
+        "30 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, enabled=true ,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg,tag=建行生活",
+        
+        "52 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=true",
+        
+        "13 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, enabled=true ,img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png,tag=百度贴吧",
+        
+        "0 7,11 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, enabled=true img-url=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png,tag=阿里云任务",
+        
+        "0 6,8 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/meituan.png, enabled=true ,tag=美团买菜任务",
+        
+        "40 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js, enabled=true,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg,tag=途虎养车积分签到",
+        
+        "0 10 * * * https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js,img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png,enabled=true ,tag=霸王别姬小程序签到",
+        
+        "21 8 * * * https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js, enabled=true,img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/hellbike.png ,tag=哈罗单车奖励金签到",
+        
+        "15 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,img-url=https://raw.githubusercontent.com/czy13724/LeviIcons/main/leviicons/Category_Bike.png ,enabled=true ,tag=捷停车签到",
+        
+        "1 9 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js, enabled=true,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/SydneyOperaHouse.png ,tag=华住会",
+        
+        "5 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,enabled=true ,img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, tag=什么值得买",
+        
+        "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png ,tag=B站每日等级任务"
+        
+        ]
+   }
