@@ -110,7 +110,7 @@ async function click(){
         for(let Obj of remoteData.cards_type_2){
             conUrl.body = await build_body(['task_name',Obj],['type',2]);
             const ret = await $.http.post(conUrl);
-            const body = JSON.parse(ret);
+            const body = JSON.parse(ret.body);
             let task_msg = "";
             if(body.ret == 1){
                 task_msg +=body.data.bubble.task_point+"厘米\n";
@@ -237,8 +237,8 @@ if (isGetCookie = typeof $request !== `undefined`) {
         }
         if(remoteData.cards_type_1.length!=0){
             await get_pack_id();
+            await open_box_v2();
         }
-        await open_box_v2();
         if(remoteData.cards_type_2.length!=0){
             await click();
         }
