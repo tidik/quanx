@@ -57,12 +57,12 @@ async function check_in(){
         const ret = await $.http.post(conUrl);
         const body = JSON.parse(ret.body);
         if(body.ret == 1){
-            msg.check_in_msg = "签到成功🎉~！";
+            $.notify($.name, '', "签到成功🎉~！");
         }
         if(body.ret == -1){
-            msg.check_in_msg = "今日已签到过了😔";
+            $.notify($.name, '', "今日已签到过了😔");
         }
-        $.notify($.name, '', msg.check_in_msg);
+        
     } catch (error) {
         console.log(error);
     }finally{
@@ -84,13 +84,16 @@ async function open_box_v2(){
             }
             if(body.ret == 1){
                 let data = body.data;
+                let task_msg = "";
                 data.list.forEach(element => {
                     if(element.name){
-                        msg.task_msg+=element.count+element.unit+element.name+"\n";
+                        task_msg+=element.count+element.unit+element.name+"\n";
                     }
                 });
+            }else{
+                task_msg = "所有（开卡）任务都完成了🎉~"
             }
-            $.notify($.name, '', msg.task_msg);
+            $.notify($.name, '', task_msg);
         }
     } catch (error) {
         console.log(error);
@@ -108,10 +111,13 @@ async function click(){
             conUrl.body = await build_body(['task_name',Obj],['type',2]);
             const ret = await $.http.post(conUrl);
             const body = JSON.parse(ret);
+            let task_msg = "";
             if(body.ret == 1){
-                msg.task_msg +=body.data.bubble.task_point+"厘米\n";
+                task_msg +=body.data.bubble.task_point+"厘米\n";
+            }else{
+                task_msg = "所有(点击)任务都完成了🎉~"
             }
-            $.notify($.name, '', msg.task_msg);
+            $.notify($.name, '', task_msg);
         }
     } catch (error) {
         console.log(error);
