@@ -234,13 +234,16 @@ if (isGetCookie = typeof $request !== `undefined`) {
         await get_bubbles();
         if(!remoteData.is_check){
             await check_in();
+        }else{
+            $.notify($.name, '', "今日已签到过了😔");
         }
         if(remoteData.cards_type_1.length!=0){
             await get_pack_id();
             await open_box_v2();
-        }
-        if(remoteData.cards_type_2.length!=0){
+        }else if(remoteData.cards_type_2.length!=0){
             await click();
+        }else{
+            $.notify($.name, '', "所有开卡任务都已完成😔");
         }
         $.done();
     })();
