@@ -14,8 +14,8 @@
 
 | 脚本                                                         | 介绍                                 | 维护状态 |
 | ------------------------------------------------------------ | ------------------------------------ | -------- |
-| [皮皮搞笑](https://github.com/tidik/quanx/blob/master/script/ppgx.js) | 签到、开卡                | 正常     |
-| [家家悦](https://github.com/tidik/quanx/blob/master/script/jjy.js) | 签到   | 正常     |        | 正常      |
+| [皮皮搞笑](https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js) | 签到、开卡                | 正常     |
+| [家家悦](https://raw.githubusercontent.com/tidik/quanx/master/script/jjy.js) | 签到   | 正常     |        | 正常      |
 
 #### Quantumult X Gallery
 
