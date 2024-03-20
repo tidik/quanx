@@ -79,12 +79,13 @@ async function open_box_v2(){
             conUrl.body = await build_body(['id',Obj[0]],['pack_id',Obj[1]]);
             const ret = await $.http.post(conUrl);
             const body = JSON.parse(ret.body);
+            let task_msg = "";
             if(body.ret == -1){
                 console.log(body.msg)
             }
             if(body.ret == 1){
                 let data = body.data;
-                let task_msg = "";
+                
                 data.list.forEach(element => {
                     if(element.name){
                         task_msg+=element.count+element.unit+element.name+"\n";
