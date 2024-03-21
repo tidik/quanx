@@ -57,6 +57,12 @@ async function check_in(){
         const ret = await $.http.post(conUrl);
         const body = JSON.parse(ret.body);
         if(body.ret == 1){
+            let list = body.data.list;
+            list.forEach(element => {
+                if(element.name == "刮刮乐"){
+                    remoteData.packs.push([element.id,element.pack_id]);
+                }
+            });
             $.notify($.name, '', "签到成功🎉~！");
         }
         if(body.ret == -1){
