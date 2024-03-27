@@ -16,6 +16,7 @@
 | ------------------------------------------------------------ | ------------------------------------ | -------- |
 | [皮皮搞笑](https://raw.githubusercontent.com/tidik/quanx/master/script/ppgx.js) | 签到、开卡                | 正常     |
 | [家家悦](https://raw.githubusercontent.com/tidik/quanx/master/script/jjy.js) | 签到   | 正常     |        | 正常      |
+| [I烟科](https://raw.githubusercontent.com/tidik/quanx/master/script/iyk.js) | 签到   | 正常     |        | 正常      |
 
 #### Quantumult X Gallery
 
