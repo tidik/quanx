@@ -6,7 +6,7 @@ hostname = www.i-shenghuo.net
 * i烟科小程序签到
 * 功能：连续签到7天送配送券
 *
-* 获取CK： i烟科->个人中心
+* 获取CK： i烟科->个人中心->每日签到
 *
 [rewrite_local]
 ^https:\/\/www\.i-shenghuo\.net\/wx\/customer\/sign\/index.wx url script-request-header https://raw.githubusercontent.com/tidik/quanx/master/script/iyk.js
@@ -38,6 +38,7 @@ async function check_in(){
             $.notify("i烟科签到成功~🎉", "", body.msg);
         }else if(body.ret == 1){
             console.log("已经签到")
+            $.notify("i烟科", "", "已签到");
         }
     } catch (error) {
         console.log(error);
