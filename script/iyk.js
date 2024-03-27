@@ -70,7 +70,7 @@ if (isGetCookie = typeof $request !== `undefined`) {
     $.done();
 }else{
     !(async()=>{
-        check_in();
+        await check_in();
         $.done();
     })();
 }
