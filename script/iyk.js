@@ -9,7 +9,7 @@ hostname = www.i-shenghuo.net
 * 获取CK： i烟科->个人中心
 *
 [rewrite_local]
-^https:\/\/www\.i-shenghuo\.net\/wx\/share\/system\/sign url script-request-header https://raw.githubusercontent.com/tidik/quanx/master/script/iyk.js
+^https:\/\/www\.i-shenghuo\.net\/wx\/share\/system\/sign\/retrieve.jhtml? url script-request-header https://raw.githubusercontent.com/tidik/quanx/master/script/iyk.js
 [task_local]
 00 9 * * * https://raw.githubusercontent.com/tidik/quanx/master/script/iyk.js, tag=I烟科,enabled=true
  */
