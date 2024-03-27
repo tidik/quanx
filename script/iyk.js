@@ -17,18 +17,19 @@ hostname = www.i-shenghuo.net
 const $ = new API("i烟科");
 const COOKIE = "I_YK_COOKIE";
 
-let conUrl = {
-    url:"https://www.i-shenghuo.net/wx/customer/signin.wx",
-    headers:{
-        'Cookie': ck(),
-        'Connection': 'keep-alive',
-        'Accept': 'application/json',
-        'Referer': 'https://www.i-shenghuo.net/wx/customer/sign/index.wx',
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.33(0x18002129) NetType/4G Language/zh_CN'
-    }
-}
+
 
 async function check_in(){
+    let conUrl = {
+        url:"https://www.i-shenghuo.net/wx/customer/signin.wx",
+        headers:{
+            'Cookie': ck(),
+            'Connection': 'keep-alive',
+            'Accept': 'application/json',
+            'Referer': 'https://www.i-shenghuo.net/wx/customer/sign/index.wx',
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.33(0x18002129) NetType/4G Language/zh_CN'
+        }
+    }
     try {
         const ret = await $.http.get(conUrl);
         let body = JSON.parse(ret.body);
