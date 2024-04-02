@@ -4,10 +4,10 @@
 [MITM]
 hostname = mole-mmp-scrm.jiajiayue.com
 * 家家悦微信小程序
-* 3月份签到活动
+* 4月份签到活动
 * 功能：自动签到
 *
-* 获取CK： 家家悦小程序 -> 3月份签到
+* 获取CK： 家家悦小程序 -> 4月份签到
 *
 [rewrite_local]
 ^https:\/\/mole-mmp-scrm\.jiajiayue\.com\/boss\/boss\/signin\/record\/list url script-request-header https://raw.githubusercontent.com/tidik/quanx/master/script/jjy.js
@@ -16,7 +16,7 @@ hostname = mole-mmp-scrm.jiajiayue.com
  */
 const $ = new  API("家家悦签到");
 const JJY_TOKEN = "JJY_TOKEN";
-const Activity_ID = "2402187cvFhAhp9X";
+const Activity_ID = "240327kEwnB1xT16";
 let KUMI_TOKEN = null;
 let PROJECT_ID = null;
 const json_body = {
@@ -47,7 +47,7 @@ async function check_in(){
               }else if(body.code == "1"){
                   let data = body.data;
                   if(data.continueNumber == 7 || data.continueNumber == 15){
-                      $.notify(`${$.name}签到成功🎉 `, "今天可以去小程序抽奖","");
+                      $.notify(`${$.name}签到成功🎉 `, "今天可以去小程序领取额外奖励","");
                   }else{
                       $.notify(`${$.name}签到成功🎉 `, "","");
                   }
